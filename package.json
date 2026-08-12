@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-skynetaccessibility-video-subtitle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Publish Captioned Video Content with AI-Powered Subtitles",
   "main": "gatsby-node.js",
   "license": "MIT",
