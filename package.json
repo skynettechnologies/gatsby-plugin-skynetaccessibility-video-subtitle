@@ -1,0 +1,59 @@
+{
+  "name": "gatsby-plugin-skynetaccessibility-video-subtitle",
+  "version": "1.0.0",
+  "description": "Publish Captioned Video Content with AI-Powered Subtitles",
+  "main": "gatsby-node.js",
+  "license": "MIT",
+  "author": "Skynet Technologies USA LLC <hello@skynettechnologies.com>",
+  "homepage": "https://github.com/skynettechnologies/gatsby-plugin-skynetaccessibility-video-subtitle#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skynettechnologies/gatsby-plugin-skynetaccessibility-video-subtitle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skynettechnologies/gatsby-plugin-skynetaccessibility-video-subtitle/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "accessibility",
+    "video-accessibility",
+    "subtitles",
+    "captions",
+    "wcag",
+    "ada",
+    "section-508",
+    "skynetaccessibility"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir compiled --extensions \".js,.jsx\"",
+    "watch": "npm run build -- --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "compiled",
+    "gatsby-node.js",
+    "gatsby-ssr.js",
+    "gatsby-browser.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.24.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^4.0.0 || ^5.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.0",
+    "@babel/core": "^7.24.0",
+    "babel-preset-gatsby-package": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

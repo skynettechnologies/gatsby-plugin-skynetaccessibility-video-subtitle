@@ -1,0 +1,5 @@
+src
+.babelrc
+.editorconfig
+node_modules
+*.log
